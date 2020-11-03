@@ -1,7 +1,90 @@
 /*
 white: #f7f9f9;
-light-blue: #2081c3;
+light-blue: 
 dark-blue: #0a2c42;
 grey: #bfbfbf;
-font-family: Arial, Helvetica, sans-serif;
+
 */
+* {
+    font-family: Arial,
+    Helvetica,
+    sans-serif;
+}
+
+nav {
+    background-color: #2081c3;
+    color: #f7f9f9;
+}
+.navbar-brand {
+    padding-left: 5%;
+    position: relative;
+    top: -2px;
+    padding-right: 15px;
+}
+body {
+    margin-bottom: 120px;
+}
+h1 {
+    color: #0a2c42;
+}
+.beers-main {
+    align-items: center;
+}
+.main-img {
+ width: 300px;
+ margin: 30px auto;
+ display: flex;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.button {
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2081c3;
+    padding: 10px;
+    box-shadow: -2px grey;
+}
+.link {
+    color: #f7f9f9;
+}
+.card {
+    margin-top: 3%;
+}
+.card img {
+    width: 95px;
+    height: 270px;
+    margin: auto;
+    padding: 5px;
+}
+.footer {
+    position: fixed;
+    right: 0;
+    left: 10px;
+    bottom: 0;
+    width: 100%;
+    background-color: #0a2c42;
+    height: 60px;
+    padding-left: 40px;
+    color: #f7f9f9;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.col-md-8 {
+    display: flex;
+}
+
+.random-img {
+    width: 95px;
+    height: 280px;
+    margin: 30px 50px;
+}
+
+.random-body {
+    margin-left: 10%;
+}
