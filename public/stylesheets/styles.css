@@ -26,6 +26,8 @@ body {
 }
 h1 {
     color: #0a2c42;
+    margin-top: 5px;
+    font-size: 30px;
 }
 .beers-main {
     align-items: center;

@@ -41,4 +41,18 @@ app.get('/random-beers', (req, res) => {
   .catch(error => console.log(error)); 
 });
 
+//BONUS 6
+app.get('/beers/:id', (req, res) => {
+  let id = req.params.id
+
+  punkAPI.getBeer(id)
+  .then(beer => {           //   1 array com 1 Objeto    
+    let oneBeer = beer[0]    //acceder ao 1o objeto e ao mesmo criar parametro objeto 
+  //  console.log(beer[0])
+        res.render('random-beers', oneBeer);  // para passar só 1 objeto 
+  })
+  .catch(error => console.log(error)); 
+});
+
+
 app.listen(3000, () => console.log('🏃‍ on port 3000'));
